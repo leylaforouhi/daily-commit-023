@@ -1,7 +1,7 @@
 def count_lines(filename):
     try:
         with open(filename, "r") as f:
-            return sum(1 for _ in f)
+            return sum(1 for _ in )
     except FileNotFoundError:
         return 0
 
